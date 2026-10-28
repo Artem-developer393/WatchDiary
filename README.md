@@ -14,7 +14,7 @@
 
 *A native Android application built with Jetpack Compose, ViewModel, and Room.*
 
-[Features](#features) · [Quick start](#quick-start) · [Architecture](#architecture) · [Testing](#automated-testing) · [Documentation](#documentation)
+[Screenshots](#screenshots) · [Features](#features) · [Quick start](#quick-start) · [Architecture](#architecture) · [Testing](#automated-testing) · [Documentation](#documentation)
 
 </div>
 
@@ -25,6 +25,27 @@
 **WatchDiary** is a native Android application for keeping a personal record of watched movies, TV series, and anime. Each entry includes a title, content type, watch date, rating, and comment.
 
 The application is built with **Kotlin**, **Jetpack Compose**, and **Room**. It works offline and stores diary entries in a local SQLite database. Users can browse their diary, search and filter entries, and export or import data without creating an account.
+
+## Screenshots
+
+<table>
+  <tr>
+    <th>Diary</th>
+    <th>Filters and sorting</th>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/diary.png" width="280" alt="Diary list with category counts, ratings, and comments"></td>
+    <td><img src="docs/screenshots/filters.png" width="280" alt="Filters for content type, rating, watch date, comments, and sort order"></td>
+  </tr>
+  <tr>
+    <th>Add an entry</th>
+    <th>Entry details</th>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/add-entry.png" width="280" alt="Entry form with title, content type, watch date, rating, and comment"></td>
+    <td><img src="docs/screenshots/details.png" width="280" alt="Movie details with watch date, star rating, and personal comment"></td>
+  </tr>
+</table>
 
 ## Features
 
