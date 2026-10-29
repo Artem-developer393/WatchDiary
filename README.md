@@ -103,8 +103,6 @@ Key implementation details:
 - **Import:** text and JSON parsing run on a background dispatcher. The DAO imports entries in a transaction and checks for existing title/date pairs.
 - **Export:** `ExportManager` reads entries through the repository, serializes them to JSON, and handles file output. The UI opens file pickers and the Android share sheet.
 
-Read [Architecture](docs/ARCHITECTURE.md) for a walkthrough of the main files and data flow.
-
 ## Quick start
 
 ### Requirements
@@ -206,7 +204,7 @@ WatchDiary/
 │   │   └── res/                     # Resources and RU/EN translations
 │   └── src/test/                    # Import parser unit tests
 ├── docs/
-│   └── ARCHITECTURE.md
+│   └── screenshots/                # Application screenshots
 ├── gradle/wrapper/
 ├── PRIVACY_POLICY.md
 └── README.md
@@ -222,7 +220,6 @@ See [Privacy Policy](PRIVACY_POLICY.md) for details.
 
 ## Documentation
 
-- [Architecture and code walkthrough](docs/ARCHITECTURE.md)
 - [Privacy Policy](PRIVACY_POLICY.md)
 - [Import parser tests](app/src/test/java/com/example/watchdiary/ImportParserTest.kt)
 
